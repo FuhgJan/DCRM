@@ -16,7 +16,7 @@ outperform DCPINNs in convergence speed and generalization abilities. The surrog
 generated from the DCRM, however, converge significantly faster than their DCPINN
 counterparts, and prove to generalize faster and better than the surrogates obtained from
 both CNNs trained on labeled data and DCPINNs. This hints that the DCRM could
-make PDE solution surrogates trained without labeled data possibly
+make PDE solution surrogates trained without labeled data possible.
 
 <p align="center">
 <img align="middle" src="unet_ch_DCRM_2.png" alt="mDEM scheme" width="1300" height="470" />
