@@ -19,7 +19,7 @@ both CNNs trained on labeled data and DCPINNs. This hints that the DCRM could
 make PDE solution surrogates trained without labeled data possibly
 
 <p align="center">
-<img align="middle" src="output/images/mDEM_Process.png" alt="mDEM scheme" width="600" height="200" />
+<img align="middle" src="unet_ch_DCRM_2.png" alt="mDEM scheme" width="600" height="200" />
 </p>
 
 
