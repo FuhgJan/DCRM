@@ -44,7 +44,7 @@ and add them to the folder.
 The provided example can then be run with
 
 ```
-$ python -m main
+$ python main_DCRM.py
 ```
 
 Outputs will be written to mixedDEM/outputs/vtk_files/ and can be opened with paraview.
