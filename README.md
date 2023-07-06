@@ -35,6 +35,12 @@ $ conda activate DCRM
 $ python -m pip install . --user
 
 ```
+Download the datasets from
+
+Jan Fuhg. (2023). Poisson dataset for CNN training [Data set]. Zenodo. https://doi.org/10.5281/zenodo.8121086
+
+and add them to the folder.
+
 The provided example can then be run with
 
 ```
