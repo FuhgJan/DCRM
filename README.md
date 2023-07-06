@@ -23,6 +23,39 @@ make PDE solution surrogates trained without labeled data possible.
 </p>
 
 
+## Installation
+This code requires an [Anaconda](https://www.anaconda.com/products/individual) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) environment with a recent Python version.
+The complete repository can be cloned and installed locally. It is recommended to create a conda environment before installation. This can be done by the following the command line instructions
+
+```
+$ git clone https://github.com/FuhgJan/DCRM.git ./DCRM
+$ cd DCRM
+$ conda env create -f environment.yml
+$ conda activate DCRM
+$ python -m pip install . --user
+
+```
+The provided example can then be run with
+
+```
+$ python -m main
+```
+
+Outputs will be written to mixedDEM/outputs/vtk_files/ and can be opened with paraview.
+
+
+
+## Dependencies
+
+Among others, the code requires the following packages as imports:
+
+ - [NumPy](http://numpy.scipy.org) for array handling
+ - [Scipy](https://www.scipy.org/) for numerical solutions
+ - [torch](https://pytorch.org/) for the neural network and automatic differentiation libraries
+ - [MatPlotLib](https://matplotlib.org/) for graphical output
+
+
+
 ## References
 If you use part of this code consider citing:
 
